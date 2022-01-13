@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="./shadow.css">
         <link rel="stylesheet" href="./main.css">
         <link href="https://fonts.googleapis.com/css2?family=Moon+Dance&family=ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet">
     </head>
@@ -10,8 +9,8 @@
             <!-- head and 거시기 -->
             <container>
                  <!-- head -->
-                <h1>Daily Check</h1>
-                <nav class="shadow-4"> <!--position: fixed display: flex-->
+                <h1>Da<span>ily</span> Check</h1>
+                <nav class="shadow"> <!--position: fixed display: flex-->
                     <ul>
                         <li class="now-nav top-nav">
                             <a href="main.html"><span>DAILY CHECK</span></a>
@@ -27,34 +26,75 @@
                         </li>
                     </ul>
                     <!-- navigator -->
-                    <!-- <a href=""></a> -->
                 </nav>
             </container>
         </header>
         <main>
             <!-- to do list and recorded time -->
             <div class="to-do-list">
-                <div class="shadow-4"> <!-- border -->
-                    <div class="">
-                        <!-- category color -->
-                    </div>
-                    <span>
-                        <!-- category text -->
-                        기타
-                    </span>
-                    <button type="button">
-
-                    </button>
-                </div>
+                <ul class="shadow">
+                    <li> <!-- border -->
+                        <div class="list-div">
+                            <div class="to-do-list-color" style="background-color: red;">
+                            </div>
+                            <span> <!-- category text -->
+                                1
+                            </span>
+                        </div>
+                        <button type="button" class="change-name"> <!-- change name-->
+                            <img src="img/edit.png" alt="edit">
+                        </button>
+                    </li>
+                    <li> <!-- border -->
+                        <div class="list-div">
+                            <div class="to-do-list-color" style="background-color: green;">
+                            </div>
+                            <span> <!-- category text -->
+                                2
+                            </span>
+                        </div>
+                        <button type="button" class="change-name"> <!-- change name-->
+                            <img src="img/edit.png" alt="edit">
+                        </button>
+                    </li>
+                    <li> <!-- border -->
+                        <div class="list-div">
+                            <div class="to-do-list-color" style="background-color: blue;">
+                            </div>
+                            <span> <!-- category text -->
+                                3
+                            </span>
+                        </div>
+                        <button type="button" class="change-name"> <!-- change name-->
+                            <img src="img/edit.png" alt="edit">
+                        </button>
+                    </li>
+                    <li> <!-- border -->
+                        <div class="list-div">
+                            <div class="to-do-list-color" style="background-color: yellow;">
+                                
+                            </div>
+                            <span> <!-- category text -->
+                                4
+                            </span>
+                        </div>
+                        <button type="button" class="change-name"> <!-- change name-->
+                            <img src="img/edit.png" alt="edit">
+                        </button>
+                    </li>
+                </ul>
                 <div> <!-- plus category -->
-                    
+                            
                 </div>
             </div>
-            <div> <!-- planner -->
+            <div class="planner shadow"> <!-- planner -->
                 <div>
                     <div>
                         <button>
                             <!-- change type button -->
+                        </button>
+                        <button>
+
                         </button>
                     </div>
                     <div>
@@ -86,14 +126,27 @@
                     </div>
                 </div>
             </div>
+            <div class="tmp">
+
+            </div>
         </main>
         <footer>
-            <div>
-                <div>
+            <div class="music shadow">
+                <div class="music-banner">
                     <!-- footer-top -->
                 </div>
-                <div>
-
+                <div class="music-command">
+                    <div>
+                        <button class="footer-button">
+                            <img src="img/before.svg" alt="befote">
+                        </button>
+                        <button class="footer-button">
+                            <img src="img/play.svg" alt="play">
+                        </button>
+                        <button class="footer-button">
+                            <img src="img/next.svg" alt="next">
+                        </button>
+                    </div>
                 </div>
                 <!-- 밑에 조그만한 바 나오게 하고 hover시 튀어 나온다 -->
             </div>
