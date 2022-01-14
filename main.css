@@ -79,22 +79,23 @@ main{
     text-align: center;
 }
 .to-do-list-color{
-    width: 15px;
+    width: 80%;
     border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
-    height: 80%;
+    border-bottom-left-radius: 10px;
+    height: 15px;
     content: "";
 }
 .to-do-list>ul{
     padding: 0px;
     border-radius: 10px;
-    width: 100px;
+    width: 300px;
     /* width: 60%; */
 }
 .to-do-list>ul>li{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
     height: 56px;
     padding: 0px;
 }
@@ -107,6 +108,8 @@ main{
 }
 .change-name{
     background-color: transparent;
+    position: absolute;
+    right: 5px;
 }
 .change-name>img{
     /* width: 10px; */
@@ -116,8 +119,11 @@ main{
 }
 .list-div{
     display: flex;
+    /* position: relative; */
+    justify-content: center;
     align-items: center;
     height: 100%;
+    width: 100%;
     width: auto;
 }
 button{
