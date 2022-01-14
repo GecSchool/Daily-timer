@@ -1,12 +1,114 @@
 <!DOCTYPE html>
 <html>
     <head>
-        
+        <link rel="stylesheet" href="./main.css">
+        <link href="https://fonts.googleapis.com/css2?family=Moon+Dance&family=ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet">
     </head>
     <body>
-        
+        <header>
+            <!-- head and 거시기 -->
+            <container>
+                 <!-- head -->
+                <h1>Ti<span>me</span> Timer</h1>
+                <nav class="shadow"> <!--position: fixed display: flex-->
+                    <ul>
+                        <li class="top-nav">
+                            <a href="main.html"><span>DAILY CHECK</span></a>
+                        </li>
+                        <li class="now-nav">
+                            <a href="timer.html"><span>TIME TIMER</span></a>
+                        </li>
+                        <li>
+                            <a href="stopwatch.html"><span>STOPWATCH</span></a>
+                        </li>
+                        <li class="bottom-nav">
+                            <a href="calendar.html"><span>CALENDER</span></a>
+                        </li>
+                    </ul>
+                    <!-- navigator -->
+                </nav>
+            </container>
+        </header>
+        <main>
+            <!-- to do list and recorded time -->
+            <div class="to-do-list">
+                <ul class="shadow">
+                    <li> <!-- border -->
+                        <div class="list-div">
+                            <div class="to-do-list-color" style="background-color: #FFFF00;">
+                            </div>
+                            <span> <!-- category text -->
+                                1
+                            </span>
+                        </div>
+                        <button type="button" class="change-name"> <!-- change name-->
+                            <img src="img/edit.png" alt="edit">
+                        </button>
+                    </li>
+                    <li> <!-- border -->
+                        <div class="list-div">
+                            <div class="to-do-list-color" style="background-color: #BAFF1A;">
+                            </div>
+                            <span> <!-- category text -->
+                                2
+                            </span>
+                        </div>
+                        <button type="button" class="change-name"> <!-- change name-->
+                            <img src="img/edit.png" alt="edit">
+                        </button>
+                    </li>
+                    <li> <!-- border -->
+                        <div class="list-div">
+                            <div class="to-do-list-color" style="background-color: #00FF80;">
+                            </div>
+                            <span> <!-- category text -->
+                                3
+                            </span>
+                        </div>
+                        <button type="button" class="change-name"> <!-- change name-->
+                            <img src="img/edit.png" alt="edit">
+                        </button>
+                    </li>
+                    <li> <!-- border -->
+                        <div class="list-div">
+                            <div class="to-do-list-color" style="background-color: #00FFFF;">
+                                
+                            </div>
+                            <span> <!-- category text -->
+                                4
+                            </span>
+                        </div>
+                        <button type="button" class="change-name"> <!-- change name-->
+                            <img src="img/edit.png" alt="edit">
+                        </button>
+                    </li>
+                </ul>
+                <div> <!-- plus category -->
+                            
+                </div>
+            </div>
+            
+        </main>
+        <footer>
+            <div class="music shadow">
+                <div class="music-banner">
+                    <!-- footer-top -->
+                </div>
+                <div class="music-command">
+                    <div>
+                        <button class="footer-button">
+                            <img src="img/before.svg" alt="befote">
+                        </button>
+                        <button class="footer-button">
+                            <img src="img/play.svg" alt="play">
+                        </button>
+                        <button class="footer-button">
+                            <img src="img/next.svg" alt="next">
+                        </button>
+                    </div>
+                </div>
+                <!-- 밑에 조그만한 바 나오게 하고 hover시 튀어 나온다 -->
+            </div>
+        </footer>
     </body>
-    <footer>
-
-    </footer>
 </html>
