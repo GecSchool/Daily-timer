@@ -1,5 +1,6 @@
 html{
     font-family: 'ZCOOL QingKe HuangYou', cursive;
+    height: 100%;
 }
 .shadow{box-shadow:0 1px 1px rgba(0,0,0,0.15),0 2px 2px rgba(0,0,0,0.15),0 4px 4px rgba(0,0,0,0.15),0 8px 8px rgba(0,0,0,0.15)}
 body{
@@ -57,15 +58,25 @@ a{
     color: black;
 }
 main{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100%;
+    height: auto;
+    /* position: relative;
+    justify-content: center; */
 }
 .to-do-list{
     width: 500px;
     background-color: #F2F2F2;
+    
+    /* position: absolute;
+    left: 30px; */
 }
 .planner{
-    width: 400px;
+    width: 100%;
+    height: 100%;
     background-color: #F2F2F2;
+    text-align: center;
 }
 .to-do-list-color{
     width: 15px;
@@ -92,7 +103,7 @@ main{
 }
 .change-name>img{
     /* width: 10px; */
-    height: 10px;
+    height: 15px;
 }
 .list-div{
     display: flex;
@@ -111,6 +122,10 @@ footer{
 }
 .footer-button{
     width: 45px;
+    background-color: transparent;
+}
+.footer-button>img>path{
+    fill: #D9863D;
 }
 /* .footer-button>img{
     margin: 0px 20px;
@@ -141,10 +156,17 @@ footer{
     background-color: #f2daac;
 }
 .music-command>div{
-    width: 40%;
+    width: 60%;
     display: flex;
     justify-content: space-between;
 }
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
 .tmp{
-    content: "";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
