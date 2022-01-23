@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="calender.css">
+        <link href="https://fonts.googleapis.com/css2?family=Moon+Dance&family=ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <container>
+                <!-- head -->
+               <h1>Ca<span>len</span>der</h1>
+               <nav class="shadow"> <!--position: fixed display: flex-->
+                   <ul>
+                       <li class="top-nav">
+                           <a href="main.html"><span>DAILY CHECK</span></a>
+                       </li>
+                       <li>
+                           <a href="timer.html"><span>TIME TIMER</span></a>
+                       </li>
+                       <li>
+                           <a href="stopwatch.html"><span>STOPWATCH</span></a>
+                       </li>
+                       <li class="now-nav  bottom-nav">
+                           <a href="calender.html"><span>CALENDER</span></a>
+                       </li>
+                   </ul>
+                   <!-- navigator -->
+               </nav>
+           </container>
+        </header>
+        <main>
+            <div>
+                <table id = "calender">
+                    <thead>
+                        <thead>
+                            <tr>
+                                <td colspan="3">year-month</td>
+                            </tr>
+                        </thead>
+                        <!-- 총 시간 & 점수 표현 해주기 -->
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Sun</td>
+                            <td>Mon</td>
+                            <td>Tue</td>
+                            <td>Wen</td>
+                            <td>Thu</td>
+                            <td>Fri</td>
+                            <td>Sat</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </main>
+        <footer>
+            <div class="music shadow">
+                <div class="music-banner">
+                    <!-- footer-top -->
+                </div>
+                <div class="music-command">
+                    <div>
+                        <button class="footer-button">
+                            <img src="img/before.svg" alt="befote">
+                        </button>
+                        <button class="footer-button">
+                            <img src="img/play.svg" alt="play">
+                        </button>
+                        <button class="footer-button">
+                            <img src="img/next.svg" alt="next">
+                        </button>
+                    </div>
+                    <span>Made By Dchool</span>
+                </div>
+                <!-- 밑에 조그만한 바 나오게 하고 hover시 튀어 나온다 -->
+            </div>
+        </footer>
+    </body>
+    
+</html>
